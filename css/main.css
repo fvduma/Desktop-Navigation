@@ -1,9 +1,76 @@
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: #E9EDF1;
-    font-family: 'Nunito', sans-serif;
-    margin: 0;
+  background-color: #e9edf1;
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #dbe1e8;
+  padding: 2.5em;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.logo {
+  color: #0460bc;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 4.3em;
+  margin: 0;
+  padding: 0;
+}
+
+ul li a {
+  font-size: 1.8rem;
+  color: black;
+}
+
+ul li a.active {
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #0460bc;
+}
+
+.cart {
+  background-color: #c3ccd7;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  color: #000;
+  padding: 1rem;
+  font-size: 1.8rem;
+  border-radius: 0.4rem;
+}
+
+a.cart p {
+  margin: 0;
+}
+
+a.cart:hover {
+  background: #bfc0ce;
 }
